@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:screenOrientation="landscape">>
+
+    <ucsc.fan.handgestures.ProjectView
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_toLeftOf="@+id/modeBtn"
+    android:visibility="gone"
+    opencv:camera_id="back"
+    android:id="@+id/main_activity_java_surface_view" />
+
+    <Button
+    android:id="@+id/modeBtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="16dp"
+    android:onClick="switchMode"
+    android:text="Mode"
+    android:visibility="visible" />
+
+    <Button
+    android:id="@+id/resample"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="16dp"
+    android:onClick="resample"
+    android:text="Resample"
+    android:visibility="visible" />
+</RelativeLayout>
