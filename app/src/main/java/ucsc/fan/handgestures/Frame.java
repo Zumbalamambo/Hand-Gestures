@@ -1,5 +1,15 @@
 package ucsc.fan.handgestures;
 
+/**
+ * This is the main class involving binary image acquisition and processing
+ * Credit of multipoint color sampling and background subtraction goes to 
+ * Yalun Qin's app (https://github.com/eaglesky/HandGestureApp)
+ * 
+ * Part of Yalun's idea/code is referenced:
+ * 1. Line 320, 344: Core.add(imgOut, sampleMats[i], imgOut);
+ * 2. Line 351-364: produceBinaryImage()
+ */
+
 import org.opencv.android.CameraBridgeViewBase.CvCameraViewFrame;
 import org.opencv.core.Core;
 import org.opencv.core.CvType;
