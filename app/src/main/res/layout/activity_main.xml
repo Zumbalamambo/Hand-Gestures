@@ -7,7 +7,7 @@
     tools:context=".MainActivity"
     android:screenOrientation="landscape">>
 
-    <ucsc.fan.handgestures.ProjectView
+    <com.edwardbai93.handgestures.ProjectView
     android:layout_width="match_parent"
     android:layout_height="fill_parent"
     android:layout_toLeftOf="@+id/modeBtn"

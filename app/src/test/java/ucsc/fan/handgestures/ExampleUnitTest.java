@@ -1,4 +1,4 @@
-package ucsc.fan.handgestures;
+package com.edwardbai93.handgestures;
 
 import org.junit.Test;
 

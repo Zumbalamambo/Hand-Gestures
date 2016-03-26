@@ -1,4 +1,4 @@
-package ucsc.fan.handgestures;
+package com.edwardbai93.handgestures;
 
 /**
  * This is the main class involving binary image acquisition and processing
